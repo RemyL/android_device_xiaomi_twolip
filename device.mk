@@ -58,6 +58,11 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
